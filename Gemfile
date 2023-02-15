@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bigdecimal', '1.3.5'
 gem 'pry'
 gem "active_model_serializers"
+gem 'sidekiq'
+gem 'letter_opener'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
